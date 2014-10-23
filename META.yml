@@ -1,26 +1,26 @@
---- #YAML:1.0
-name:               Set-Functional
-version:            1.01
-abstract:           set operations for functional programming
+---
+abstract: 'set operations for functional programming'
 author:
-    - Aaron Cohen <aarondcohen@gmail.com>
-license:            perl
-distribution_type:  module
-configure_requires:
-    ExtUtils::MakeMaker:  0
+  - 'Aaron Cohen <aarondcohen@gmail.com>'
 build_requires:
-    ExtUtils::MakeMaker:  0
-requires:
-    Test::More:  0
-resources:
-    bugtracker:  http://github.com/aarondcohen/Set-Functional/issues
-    homepage:    http://github.com/aarondcohen/Set-Functional
-    repository:  git://github.com/aarondcohen/Set-Functional.git
-no_index:
-    directory:
-        - t
-        - inc
-generated_by:       ExtUtils::MakeMaker version 6.57_05
+  ExtUtils::MakeMaker: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.6302, CPAN::Meta::Converter version 2.120630'
+license: perl
 meta-spec:
-    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
-    version:  1.4
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Set-Functional
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  Test::More: 0
+resources:
+  bugtracker: http://github.com/aarondcohen/Set-Functional/issues
+  homepage: http://github.com/aarondcohen/Set-Functional
+  repository: git://github.com/aarondcohen/Set-Functional.git
+version: 1.03
