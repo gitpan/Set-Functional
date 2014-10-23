@@ -23,4 +23,4 @@ resources:
   bugtracker: http://github.com/aarondcohen/Set-Functional/issues
   homepage: http://github.com/aarondcohen/Set-Functional
   repository: git://github.com/aarondcohen/Set-Functional.git
-version: 1.03
+version: 1.04
